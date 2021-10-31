@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+  height: 100vh;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/84a847d7-8198-41e4-a168-c9c53e49c14d/NG-en-20211026-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  filter: brightness(75%);
+}
+nav {
+  align-items: center;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+#logo {
+  font-size: 35px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+.button {
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+#first-text-content {
+  color: white;
+  margin-top: 100px;
+  margin-left: 20%;
+}
+.hero h1 {
+  font-size: 75px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.hero h2 {
+  margin-left: 25%;
+  padding-top: 25px;
+}
+#second-text-content {
+  color: white;
+  margin-left: 30%;
+  font-size: 25px;
+  padding-top: 25px;
+}
+#email {
+  margin-left: 25%;
+  margin-top: 25px;
+  border: white solid 30px;
+  max-width: 500px;
+  display: flex;
+}
+#second-button {
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  width: 15%;
+  height: 10%;
+  padding: 25px 50px;
+  /* padding-top: 25px;
+  padding-left: 25px; */
+}
+#second-button a {
+  text-decoration: none;
+  color: white;
+}
+.container1 {
+  display: flex;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  align-items: center;
+  height: 25%;
+}
+.container1 h2 {
+  font-size: 50px;
+  margin-left: 25%;
+}
+.container1 p {
+  font-size: 25px;
+  width: 50%;
+  align-content: center;
+  margin-left: 25%;
+}
+.container2 {
+  display: flex;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  align-items: center;
+  height: 25%;
+}
+.container2 h2 {
+  font-size: 50px;
+  margin-right: 40%;
+}
+.container2 p {
+  font-size: 25px;
+  width: 50%;
+  align-content: center;
+  margin-right: 25%;
+}
+.container3 {
+  /* display: flex; */
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  align-content: center;
+  padding-top: 25px;
+  padding-left: 10%;
+  height: 25%;
+}
+.container3 h2 {
+  font-size: 50px;
+  margin-left: 10%;
+}
+.container3 p {
+  font-size: 25px;
+  width: 50%;
+  align-content: center;
+  margin-left: 10%;
+}
+.container4 {
+  display: flex;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  align-content: center;
+  padding-top: 50px;
+  padding-left: 10%;
+  height: 25%;
+}
+.container4 h2 {
+  font-size: 50px;
+  margin-right: 40%;
+  padding-top: 15%;
+}
+.container4 p {
+  font-size: 25px;
+  width: 50%;
+  align-content: center;
+  margin-right: 25%;
+  /* padding-top: 25%; */
+}
