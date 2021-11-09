@@ -9,75 +9,107 @@ body {
 }
 .hero {
   height: 100vh;
-  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/84a847d7-8198-41e4-a168-c9c53e49c14d/NG-en-20211026-popsignuptwoweeks-perspective_alpha_website_large.jpg");
-  filter: brightness(75%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/84a847d7-8198-41e4-a168-c9c53e49c14d/NG-en-20211026-popsignuptwoweeks-perspective_alpha_website_large.jpg");
 }
 nav {
-  align-items: center;
   color: red;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-top: 5px;
+  padding: 20px 60px 0 15px;
   font-weight: bolder;
 }
 #logo {
-  font-size: 35px;
+  font-size: 25px;
 }
 nav a {
   text-decoration: none;
   color: white;
   padding-right: 50px;
   padding-top: 25px;
-}
-.button {
   background-color: red;
-  padding: 10px 20px;
-  color: white;
+  padding: 8px 15px;
   border-radius: 5px;
-  margin-right: 50px;
+}
+#main-container {
+  color: white;
+  margin: 12% 10% 5% 20%;
+  font-size: 25px;
 }
 #first-text-content {
   color: white;
-  margin-top: 100px;
-  margin-left: 20%;
+  align-content: center;
 }
 .hero h1 {
-  font-size: 75px;
+  font-size: 60px;
   margin-left: 150px;
   margin-right: 150px;
 }
-.hero h2 {
-  margin-left: 25%;
+.hero p {
+  margin-left: 20%;
   padding-top: 25px;
+  font-size: 25px;
 }
 #second-text-content {
   color: white;
-  margin-left: 30%;
-  font-size: 25px;
+  margin-left: 15%;
+  font-size: 18px;
   padding-top: 25px;
 }
-#email {
+#get-started {
+  display: flex;
+  margin-left: 5%;
+}
+.button {
+  background-color: red;
+  height: 55px;
+  color: white;
+  border: none;
+  width: 250px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+input[type="email"] {
+  /* border: white solid 0px; */
+  margin-top: 20px;
+  width: 500px;
+  height: 75px;
+  font-size: 15px;
+  padding: 0 10px;
+  outline: none;
+}
+input[type="email"]:focus {
+  outline: none;
+}
+/* #email {
   margin-left: 25%;
   margin-top: 25px;
   border: white solid 30px;
   max-width: 500px;
   display: flex;
 }
-#second-button {
-  font-size: 25px;
-  color: white;
+.button {
   background-color: red;
-  width: 15%;
-  height: 10%;
-  padding: 25px 50px;
-  /* padding-top: 25px;
-  padding-left: 25px; */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 #second-button a {
   text-decoration: none;
   color: white;
-}
+} */
 .container1 {
   display: flex;
   color: white;
@@ -120,9 +152,9 @@ nav a {
   background-color: black;
   margin-top: 10px;
   align-content: center;
-  padding-top: 25px;
+  padding-top: 70px;
   padding-left: 10%;
-  height: 25%;
+  height: 250px;
 }
 .container3 h2 {
   font-size: 50px;
