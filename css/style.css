@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background-color: grey;
+  background-color: #424242;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hero {
-  height: 100vh;
+  height: 98vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/84a847d7-8198-41e4-a168-c9c53e49c14d/NG-en-20211026-popsignuptwoweeks-perspective_alpha_website_large.jpg");
 }
@@ -35,7 +35,6 @@ nav a {
 #main-container {
   color: white;
   margin: 12% 10% 5% 20%;
-  font-size: 25px;
 }
 #first-text-content {
   color: white;
@@ -76,7 +75,6 @@ nav a {
   cursor: pointer;
 }
 input[type="email"] {
-  /* border: white solid 0px; */
   margin-top: 20px;
   width: 500px;
   height: 75px;
@@ -87,29 +85,6 @@ input[type="email"] {
 input[type="email"]:focus {
   outline: none;
 }
-/* #email {
-  margin-left: 25%;
-  margin-top: 25px;
-  border: white solid 30px;
-  max-width: 500px;
-  display: flex;
-}
-.button {
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-#second-button a {
-  text-decoration: none;
-  color: white;
-} */
 .container1 {
   display: flex;
   color: white;
@@ -147,7 +122,6 @@ input[type="email"]:focus {
   margin-right: 25%;
 }
 .container3 {
-  /* display: flex; */
   color: white;
   background-color: black;
   margin-top: 10px;
@@ -186,5 +160,190 @@ input[type="email"]:focus {
   width: 50%;
   align-content: center;
   margin-right: 25%;
-  /* padding-top: 25%; */
+}
+.container5 {
+  display: flex;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  align-content: center;
+  padding: 100px 10% 200px 10%;
+  justify-content: space-evenly;
+}
+.container5 a {
+  text-decoration: none;
+  color: grey;
+}
+.container5 li {
+  list-style: none;
+  line-height: 2;
+  font-size: 15px;
+}
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #424242;
+
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hero {
+    height: 75vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("https://assets.nflxext.com/ffe/siteui/vlv3/b77751c7-0e02-4941-af39-30514ff6b3e2/84a847d7-8198-41e4-a168-c9c53e49c14d/NG-en-20211026-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  }
+  nav {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0 7.5px;
+    font-weight: bolder;
+  }
+  #logo {
+    font-size: 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    padding-top: 25px;
+    background-color: red;
+    padding: 4px 7.5px;
+    border-radius: 5px;
+  }
+  #main-container {
+    color: white;
+    margin: 6% 5% 2.5% 10%;
+  }
+  .hero h1 {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 50px;
+  }
+  #first-text-content {
+    color: white;
+    align-content: center;
+  }
+  #first-text-content p {
+    margin-left: 10%;
+  }
+  #second-text-content {
+    color: white;
+    margin-left: 5%;
+    font-size: 18px;
+    padding-top: 25px;
+  }
+  #get-started {
+    display: inline-block;
+    margin-left: 5%;
+  }
+  .button {
+    background-color: rgb(0, 128, 96);
+    height: 30px;
+    color: white;
+    width: 100px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  input[type="email"] {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 7.5px;
+    padding: 0 5px;
+    outline: none;
+  }
+  input[type="email"]:focus {
+    outline: none;
+  }
+  .container1 {
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    align-items: center;
+    height: 10%;
+  }
+  .container1 h2 {
+    font-size: 25px;
+    margin-left: 10%;
+  }
+  .container1 p {
+    font-size: 15px;
+    width: 25%;
+    align-content: center;
+    margin-left: 10%;
+  }
+  .container1 img {
+    width: 50%;
+  }
+  .container2 {
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    align-items: center;
+    height: 10%;
+  }
+  .container2 h2 {
+    font-size: 25px;
+    margin-right: 20%;
+  }
+  .container2 img {
+    height: 75%;
+    width: 50%;
+  }
+  .container3 {
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    align-content: center;
+    padding-top: 35px;
+    padding-left: 5%;
+    height: 250px;
+  }
+  .container3 h2 {
+    font-size: 25px;
+    margin-left: 10%;
+  }
+  .container3 p {
+    font-size: 20px;
+    width: 50%;
+    align-content: center;
+    margin-left: 10%;
+  }
+  .container4 {
+    display: flex;
+    color: white;
+    background-color: black;
+    margin-top: 15px;
+    align-content: center;
+    padding-top: 25px;
+    padding-left: 5%;
+    height: 25%;
+  }
+  .container4 h2 {
+    font-size: 35px;
+    margin-right: 40%;
+    padding-top: 15%;
+  }
+  .container4 p {
+    font-size: 25px;
+    width: 25%;
+    align-content: center;
+    margin-right: 25%;
+  }
+  .container4 img {
+    width: 50%;
+    height: 5%px;
+  }
 }
